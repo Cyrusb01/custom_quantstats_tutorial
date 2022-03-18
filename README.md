@@ -10,7 +10,7 @@
 - Cloned the repo to my computer 
 - Edited the `html` function and supporting graphing functions 
 - Pushed the changes 
-- Since quantstats is a Pypi package and has a `setup.py` file, downloading the edited package is as simple as the one command written above 
+- Since quantstats is a PyPi package and has a `setup.py` file, downloading the edited package is as simple as the one command written above 
 
 
 
