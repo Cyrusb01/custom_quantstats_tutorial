@@ -9,14 +9,17 @@ colors = {
     "benchmark": "white",
     "strategy": "#FF9900",
     "rolling beta": "grey",
-    "nothing": "orange",
+    "axis font": "white",
     "nothing2": "blue",
     "dotted line": "red",
 }
 
 q_colors = list(colors.values())
 logo = "new_logo.png"
-b_color = "#13151E"
+alpha = 1 #1 is not transparent, 0 is transparent. This is for the graph background color
+graph_background_color = "#191E2B"
+font_path = 'Be_Vietnam_Pro/'
+fontname = "Be Vietnam Pro"
 
 qs.reports.html(
     btc,
@@ -24,8 +27,12 @@ qs.reports.html(
     strategy_name="Bitcoin",
     benchmark_name="SPY",
     custom_colors=q_colors,
-    background_color=b_color,
+    bg_graph = graph_background_color,
+    alpha = alpha,
+    stylesheet="style.css",
     logo=logo,
+    fontname = fontname,
+    font_path = font_path,
     title="Bitcoin vs. SPY Tearsheet",
     company="Blockforce Capital",
     output="strat_tearsheet.html",

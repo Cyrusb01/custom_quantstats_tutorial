@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Be_Vietnam-Black';
+    src: url('/Be_Vietnam_Pro/BeVietnamPro-Black.ttf');
+}
+@font-face {
+    font-family: 'Be_Vietnam-BlackItalic';
+    src: url('/Be_Vietnam_Pro/BeVietnamPro-BlackItalic.ttf');
+}
+@font-face {
+    font-family: 'Be_Vietnam-Bold';
+    src: url('/Be_Vietnam_Pro/BeVietnamPro-Bold.ttf');
+}
+@font-face {
+    font-family: 'Be_Vietnam-BoldItalic';
+    src: url('/Be_Vietnam_Pro/BeVietnamPro-BoldItalic.ttf');
+}
+@font-face {
+    font-family: 'Be_Vietnam-ExtraBold';
+    src: url('/Be_Vietnam_Pro/BeVietnamPro-ExtraBoldItalic.ttf');
+}
+@font-face {
+    font-family: 'Be_Vietnam-ExtraLight';
+    src: url('/Be_Vietnam_Pro/BeVietnamPro-ExtraLight.ttf');
+}
+@font-face {
+    font-family: 'Be_Vietnam-ExtraLightItalic';
+    src: url('/Be_Vietnam_Pro/BeVietnamPro-ExtraLightItalic.ttf');
+}
+@font-face {
+    font-family: 'Be_Vietnam-Italic';
+    src: url('/Be_Vietnam_Pro/BeVietnamPro-Italic.ttf');
+}
+@font-face {
+    font-family: 'Be_Vietnam-Light';
+    src: url('/Be_Vietnam_Pro/BeVietnamPro-Light.ttf');
+}
+@font-face {
+    font-family: 'Be_Vietnam-LightItalic';
+    src: url('/Be_Vietnam_Pro/BeVietnamPro-LightItalic.ttf');
+}
+@font-face {
+    font-family: 'Be_Vietnam-Medium';
+    src: url('/Be_Vietnam_Pro/BeVietnamPro-MediumItalic.ttf');
+}
+@font-face {
+    font-family: 'Be_Vietnam-Regular';
+    src: url('/Be_Vietnam_Pro/BeVietnamPro-Regular.ttf');
+}
+@font-face {
+    font-family: 'Be_Vietnam-SemiBold';
+    src: url('/Be_Vietnam_Pro/BeVietnamPro-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Be_Vietnam-SemiBoldItalic';
+    src: url('/Be_Vietnam_Pro/BeVietnamPro-SemiBoldItalic.ttf');
+}
+@font-face {
+    font-family: 'Be_Vietnam-Thin';
+    src: url('/Be_Vietnam_Pro/BeVietnamPro-Thin.ttf');
+}
+@font-face {
+    font-family: 'Be_Vietnam-ThinItalic';
+    src: url('/Be_Vietnam_Pro/BeVietnamPro-ThinItalic.ttf');
+}
+
+
+#grad {
+    background-image: linear-gradient(to right, red , yellow);
+}
+h1{
+    font-family: 'Be_Vietnam-SemiBold';
+}
+body{
+    font-family: 'Be_Vietnam-Regular' !important;
+    font: 'Be_Vietnam-Regular';
+    background-image: linear-gradient(125deg, #13151E, #395177);
+    color: white;
+}
+
+body, p, table, td, th {
+    font: 13px/1.4 'Be_Vietnam-Regular';
+}
