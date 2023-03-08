@@ -1,9 +1,16 @@
 import quantstats as qs
 
 
-btc = qs.utils.download_returns("BTC-USD")
+btc = qs.utils.download_returns("AAPL")
 spy = qs.utils.download_returns("SPY")
 
+btc.index = btc.index.tz_localize(None)
+spy.index = spy.index.tz_localize(None)
+
+btc = btc[btc.index > '2012-01-01']
+spy = spy[spy.index > '2012-01-01']
+
+print(btc)
 # Quantstats custom_colors takes a list, this dictionary is just to show what each color means
 colors = {
     "benchmark": "white",
@@ -24,8 +31,8 @@ fontname = "Be Vietnam Pro"
 qs.reports.html(
     btc,
     benchmark=spy,
-    strategy_name="Bitcoin",
-    benchmark_name="SPY",
+    strategy_name="Eaton",
+    benchmark_name="Google",
     custom_colors=q_colors,
     bg_graph = graph_background_color,
     alpha = alpha,
@@ -33,7 +40,7 @@ qs.reports.html(
     logo=logo,
     fontname = fontname,
     font_path = font_path,
-    title="Bitcoin vs. SPY Tearsheet",
+    title="Eaton vs. Google Tearsheet",
     company="Blockforce Capital",
     output="strat_tearsheet.html",
 )

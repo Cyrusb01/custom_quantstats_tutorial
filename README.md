@@ -1,6 +1,6 @@
 # How to use Custom Tearsheet Quantstats
 
-- First, you can install using `python -m pip install -e git+https://github.com/Cyrusb01/quantstats@custom_tearsheet#egg=QuantStats`
+- First, you can install using `python -m pip install -e git+https://github.com/bfcdev/quantstats@custom_tearsheet#egg=QuantStats`
 - After installing, you can use it just as you would regular quantstats, `import quantstats as qs` 
 - Check out the `example.py` to see all the new customizations you can do
 
