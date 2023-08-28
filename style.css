@@ -44,11 +44,11 @@
 }
 @font-face {
     font-family: 'Be_Vietnam-Regular';
-    src: url('/Be_Vietnam_Pro/BeVietnamPro-Regular.ttf');
+    src: url('Be_Vietnam_Pro/BeVietnamPro-Regular.ttf');
 }
 @font-face {
     font-family: 'Be_Vietnam-SemiBold';
-    src: url('/Be_Vietnam_Pro/BeVietnamPro-SemiBold.ttf');
+    src: url('Be_Vietnam_Pro/BeVietnamPro-SemiBold.ttf');
 }
 @font-face {
     font-family: 'Be_Vietnam-SemiBoldItalic';
@@ -74,7 +74,12 @@ body{
     font-family: 'Be_Vietnam-Regular' !important;
     font: 'Be_Vietnam-Regular';
     background-image: linear-gradient(125deg, #13151E, #395177);
-    color: white;
+    /* color: #828282; */
+    color: white
+}
+h4{
+    /* color: #828282; */
+    color: white
 }
 
 body, p, table, td, th {
