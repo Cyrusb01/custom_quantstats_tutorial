@@ -19,6 +19,7 @@ colors = {
     "axis font": "white",
     "nothing2": "blue",
     "dotted line": "red",
+    "graph titles" : 'white'
 }
 
 q_colors = list(colors.values())
@@ -31,8 +32,8 @@ fontname = "Be Vietnam Pro"
 qs.reports.html(
     btc,
     benchmark=spy,
-    strategy_name="Eaton",
-    benchmark_name="Google",
+    strategy_name="Apple",
+    benchmark_name="SPY",
     custom_colors=q_colors,
     bg_graph = graph_background_color,
     alpha = alpha,
@@ -40,7 +41,7 @@ qs.reports.html(
     logo=logo,
     fontname = fontname,
     font_path = font_path,
-    title="Eaton vs. Google Tearsheet",
+    title="Apple vs. S&P 500 Tearsheet",
     company="Blockforce Capital",
     output="strat_tearsheet.html",
 )
