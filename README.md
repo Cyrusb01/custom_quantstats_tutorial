@@ -11,7 +11,7 @@
     import quantstats as qs
     ```
 3. **Explore Customizations**:  
-Check out the `example.py` file to see all the new customaizations you 
+Check out the `example.py` file to see all the new customizations you can do
 
 ## Development Process
 
